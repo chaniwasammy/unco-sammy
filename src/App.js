@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './components/Header';
+
+import Home from './pages/Home';
+import OurStory from './pages/OurStory';
+import HireUs from './pages/HireUs';
+import Donate from './pages/Donate';
+import InnovationHubs from './components/InnovationHubs';
+import BlogPage from './components/BlogPage';
+import FirstBlog from './components/FirstBlog';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+       <Header />
+      <Routes>
+        <Route element={<Home/>}exact path='/Home' />
+        <Route element={<OurStory/>}exact path='/OurStory' />
+        <Route element={<InnovationHubs/>}exact path='/InnovationHubs' />
+        <Route element={<HireUs/>}exact path='/HireUs' />
+        <Route element={<Donate/>}exact path='/Donate'/>
+        <Route element={<BlogPage/>}exact path='/Blog'/>
+        <Route element={<FirstBlog/>}exact path='/Blog/:id'/>
+   
+        
+       
+      
+      
+      </Routes>
+     
+      
+      
+    </Router>
   );
 }
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import PagesHero from '/Users/uncommonstudent/Desktop/react project/uncommon project/src/components/PagesHero.js'
+import PagesHero from '../components/PagesHero'
 import PagesHeader from '/Users/uncommonstudent/Desktop/react project/uncommon project/src/components/PagesHeader.js'
 import PagesOurExpertise from '/Users/uncommonstudent/Desktop/react project/uncommon project/src/components/PagesOurExpertise.js'
 import PagesRecentWork from '/Users/uncommonstudent/Desktop/react project/uncommon project/src/components/PagesRecentWork.js'

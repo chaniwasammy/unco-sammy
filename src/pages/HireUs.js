@@ -1,12 +1,12 @@
 import React from 'react'
 import PagesHero from '../components/PagesHero'
-import PagesHeader from '/Users/uncommonstudent/Desktop/react project/uncommon project/src/components/PagesHeader.js'
-import PagesOurExpertise from '/Users/uncommonstudent/Desktop/react project/uncommon project/src/components/PagesOurExpertise.js'
-import PagesRecentWork from '/Users/uncommonstudent/Desktop/react project/uncommon project/src/components/PagesRecentWork.js'
-import PagesSectionBlueFirst from '/Users/uncommonstudent/Desktop/react project/uncommon project/src/components/PagesSectionBlueFirst.js'
-import PagesFOOTER from '/Users/uncommonstudent/Desktop/react project/uncommon project/src/components/PazFooter.js'
-import PagesBlueSECTIONtwo from '/Users/uncommonstudent/Desktop/react project/uncommon project/src/components/PagesBlueSECTIONtwo.js'
-import Pagestogether from '/Users/uncommonstudent/Desktop/react project/uncommon project/src/components/Pagestogether.js'
+import PagesHeader from '../components/PagesHeader'
+import PagesOurExpertise from '../components/PagesOurExpertise'
+import PagesRecentWork from '../components/PagesRecentWork'
+import PagesSectionBlueFirst from '../components/PagesSectionBlueFirst'
+import PagesFOOTER from '../components/PagesFOOTER'
+import PagesBlueSECTIONtwo from '../components/PagesBlueSECTIONtwo'
+import Pagestogether from '../components/Pagestogether'
 
 
 
